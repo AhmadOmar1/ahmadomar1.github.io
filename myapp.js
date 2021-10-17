@@ -1,5 +1,5 @@
-let x = prompt("Enter Your Name")
-alert("Hello " + x + " Enjoy Your Area calculate :D")
+// let x = prompt("Enter Your Name")
+// alert("Hello " + x + " Enjoy Your Area calculate :D")
 
 
 function calculateSquareArea() {
