@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title> test</title>
+</head>
+
+<body>
+    <div id="container">
+        <!--main -->
+        <div class="section" style="background-color: ;height: 300px;">
+            <div id="photos"> <img src="rekt.jpg" alt="myphoto"> </div>
+            <div id="text">
+                <h2>Calculate Area : </h2>
+                <p>Done by : Ahmad Omar</p>
+
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="text1 square-area">
+                <h1> Square</h1>
+                <img src="Square.jpg" alt="square"> <br>
+                <input type="number" id="sqaureInput" />
+                <button onclick="calculateSquareArea()"> Calculate </button>
+                <div>
+
+                    Area = <span id="squareResult"> </span>
+                </div>
+            </div>
+            <div class="text1 rectangle-area">
+                <h1> rectangle </h1>
+                <img src="rectangle.jpg" alt="rext"> <br>
+                <label for="number">Enter height </label>
+                <input type="number" id="rectLInput" /> <br>
+                <label for="number">Enter width </label><input type="number" id="rectWInput" /> <br>
+                <button onclick="calculateRectArea()"> Calculate </button>
+                <div>
+
+                    <label for="number"> Area = <span id="rectResult"> </span></label>
+                </div>
+            </div>
+            <div class="text1 cricle-area">
+                <h1> Circle </h1>
+                <img src="circle.jbg" alt="rext"> 
+                <label for="number">Enter raduis </label>
+                <input type="number" id="circleInput" /> <br>
+                <button onclick="calculateCircleArea()"> Calculate </button>
+                <div>
+                    <label for="number"> Area = <span id="circleResult"> </span></label>
+                </div>
+            </div>
+        </div>
+
+      <script src="myapp.js" > </script>
+</body>
+
+</html>
